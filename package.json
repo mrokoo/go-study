@@ -1,0 +1,14 @@
+{
+  "name": "go-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "go fmt && golint && go vet",
+    "build": "yarn lint && go build main.go",
+    "r": "yarn lint && go run main.go"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
